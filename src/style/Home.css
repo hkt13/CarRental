@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
+.hero-section{
+    background-color: #f8f8f8;
+    height: 97vh;
+    position: relative;
+    width: 100%;
+}
+
+.hero-container{
+    margin: 0 auto!important;
+    max-width: 133rem!important;
+    padding: 0 2.5rem!important;
+}
+
+.bg-shape{
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 1;
+}
+
+@media (max-width: 800px)
+{.bg-shape {
+    display: none;
+}
+}
+
+.hero-content{
+    align-items: center;
+    display: flex;
+    height: 100vh;
+    position: relative;
+    width: 100%;
+}
+
+@media (max-width: 800px)
+{.hero-content {
+    justify-content: center;
+}
+}
+
+.hero-content-text{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5rem;
+    max-width: 50rem;
+    z-index: 3;
+}
+
+@media (max-width: 800px)
+{.hero-content-text {
+    align-items: center;
+    text-align: center;
+}
+}
+
+.hero-content-text h4 {
+    color: #010103;
+    font-family: 'Rubik',sans-serif;
+    font-size: 2.2rem;
+}
+
+.hero-content-text h1 {
+    color: #010103;
+    font-family: Poppins,sans-serif;
+    font-size: 5.2rem;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 2.3rem;
+    margin-top: 1rem;
+}
+
+.hero-content-text h1 span {
+    color: #ff4d30;
+}
+
+.hero-content-text p {
+    color: #706f7b;
+    font-family: Rubik,sans-serif;
+    font-size: 1.6rem;
+    line-height: 1.6;
+    margin-bottom: 4rem;
+}
+
+.hero-content-text-btns {
+    display: flex;
+    font-family: 'Rubik',sans-serif;
+    font-size: 1.6rem;
+    gap: 2rem;
+}
+
+@media (max-width: 450px)
+{.hero-content-text-btns {
+    flex-direction: column;
+}
+}
+
+.hero-content-text-btns a{
+    color: #fff;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.book-ride-btn{
+    background-color: #ff4d30;
+    border: 2px solid #ff4d30;
+    border-radius: 0.3rem;
+    box-shadow: 0 10px 15px 0 rgba(255,83,48,.35);
+    padding: 1.8rem 3rem;
+    transition: all .3s;
+}
+
+.book-ride-btn:hover{
+    background-color: #fa4226;
+    box-shadow: 0 10px 15px 0 rgba(255,83,48,.6);
+}
+
+@media (max-width: 450px)
+{.book-ride-btn {
+    padding: 1.8rem 8rem;
+}
+}
+
+.learn-more-btn{
+    background-color: #010103;
+    border: 2px solid #010103;
+    border-radius: 0.3rem;
+    padding: 1.8rem 3rem;
+    transition: all .3s;
+}
+
+.learn-more-btn:hover{
+    background-color: initial;
+    color: #010103;
+}
+
+.hero-content-car{
+    margin-top: 5rem;
+    position: absolute;
+    right: 0;
+    width: 65%;
+    z-index: 2;
+
+}
+
+@media (max-width: 800px)
+{.hero-content-car {
+    display: none;
+}
+}

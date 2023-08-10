@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
+
+.about-section{
+    background-color: #fff;
+    padding: 5.3rem 0;
+    position: relative;
+    z-index: 4;
+}
+
+.about-container{
+    margin: 0 auto!important;
+    max-width: 133rem!important;
+    padding: 0 2.5rem!important;
+    display: flex;
+    flex-direction: column;
+}
+
+.about-container-title{
+    color: #010103;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.about-container-title h3{
+    font-family: 'Rubik',sans-serif;
+    font-size: 2.4rem;
+    font-weight: 500;
+}
+
+.about-container-title h2{
+    font-family: Poppins,sans-serif;
+    font-size: 4.2rem;
+    margin: 1.3rem 0 3rem;
+}
+
+.about-container-boxes{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    margin-top: 3.7rem;
+    padding: 0 3rem;
+}
+
+@media (max-width: 1021px)
+{.about-container-boxes {
+    grid-template-columns: 1fr 1fr;
+    row-gap: 2rem;
+}
+}
+
+@media (max-width: 800px)
+{.about-container-boxes {
+    grid-template-columns: 1fr;
+    margin-top: 1rem;
+}
+}
+
+.about-container-box{
+    padding: 1rem 6rem;
+    text-align: center;
+}
+
+@media (max-width: 500px)
+{.about-container-box {
+    padding: 1rem;
+}
+}
+
+.about-container-box img{
+    height: auto;
+    width: 17rem;
+}
+
+.about-container-box h3{
+    font-size: 2.4rem;
+    margin-bottom: 1rem;
+}
+
+.about-container-box p{
+    color: #706f7b;
+    font-family: Rubik,sans-serif;
+    font-size: 1.6rem;
+    line-height: 1.43;
+}

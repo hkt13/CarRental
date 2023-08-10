@@ -1,0 +1,26 @@
+ [
+      {
+        "car_name": "Toyota Camry",
+        "rate_per_day": 1500,
+        "image": "https://cdni.autocarindia.com/Utils/ImageResizer.ashx?n=https://cms.haymarketindia.net/model/uploads/modelimages/CamryModelImage.jpg&w=730&h=484&q=75&c=1"
+      },
+      {
+        "car_name": "Mahindra Thar",
+        "rate_per_day": 2300,
+        "image": "https://images.91wheels.com/assets/b_images/main/models/profile/profile1689761890.jpg"
+      },
+
+      {
+        "car_name": "Toyota Fortuner",
+        "rate_per_day": 2000,
+        "image": "https://cdni.autocarindia.com/Utils/ImageResizer.ashx?n=https://cms.haymarketindia.net/model/uploads/modelimages/Toyota-Fortuner-110120211829.jpg&w=730&h=484&q=75&c=1"
+      }
+     
+    ]
+  
+  
+  
+  
+  
+  
+  

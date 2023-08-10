@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700;800;900&display=swap');
+
+.mobile-navbar{
+    align-items: center;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    left: -100%;
+    position: fixed;
+    top: 0;
+    transition: all .5s ease-in-out;
+    width: 100%;
+    z-index: 999999;
+}
+
+.open-nav{
+    left: 0;
+}
+
+.mobile-navbar-close{
+    cursor: pointer;
+    font-size: 3rem;
+    position: absolute;
+    right: 3.5rem;
+    top: 3.5rem;
+    transition: all .3s;
+}
+
+.mobile-navbar-close:hover{
+    color: #ff4d30;
+}
+
+.mobile-navbar-links{
+    display: flex;
+    flex-direction: column;
+    font-size: 2.3rem;
+    gap: 3rem;
+    list-style: none;
+    text-align: center;
+}
+
+.mobile-navbar-links a{
+    color: #010103;
+    font-weight: 500;
+    text-decoration: none;
+    transition: all .3s;
+}
+
+.mobile-navbar-links a:hover{
+    color: #ff4d30;
+}
+
+.nav-center{
+    align-items: center;
+    background-color: initial;
+    display: flex;
+    height: auto;
+    justify-content: space-between;
+    left: 0;
+    margin: 0 auto;
+    max-width: 133rem;
+    padding: 2.7rem 2rem;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
+    z-index: 99999;
+}
+
+.logo{
+    width: 14.5rem;
+}
+
+.logo img{
+    width: 100%;
+    height: 100%;
+}
+
+.links{
+    display: flex;
+    gap: 2.1rem;
+    list-style: none;
+}
+
+@media (max-width: 1000px)
+{.links {
+    display: none;
+}
+}
+
+.nav-link{
+    color: #010103;
+    cursor: pointer;
+    font-family: 'Rubik', sans-serif;
+    font-size: 1.6rem;
+    font-weight: 500;
+    text-decoration: none;
+    transition: all .3s;
+}
+
+.nav-link:hover{
+    color: #ff4d30;
+}
+
+.ctc{
+    font-family: 'Rubik' ,sans-serif;
+    font-size: 1.6rem;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+@media (max-width: 1000px)
+{.ctc {
+    display: none;
+}
+}
+
+.ctc:hover{
+    
+    background-color: #fa4226;
+    box-shadow: 0 10px 15px 0 rgba(255,83,48,.5);
+}
+
+.og-btn{
+    background-color: #ff4d30;
+    border-radius: 3px;
+    box-shadow: 0 10px 15px 0 rgba(255,83,48,.35);
+    color: #fff;
+    padding: 1.5rem 3rem;
+    transition: all .3s;
+}
+
+.mobile-hamb {
+    cursor: pointer;
+    display: none;
+    font-size: 2.8rem;
+    transition: all .3s;
+}
+
+
+@media (max-width: 1000px)
+{.mobile-hamb {
+    display: flex;
+}
+}
+
+.mobile-hamb:hover {
+    color: #ff4d30;
+}
