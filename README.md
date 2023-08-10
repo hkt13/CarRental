@@ -10,4 +10,11 @@
 »  CSS <br>
 »  JavaScript <br>
 
+<h3><b>Key Features:</b></h3>
+<ul>
+  <li><b>Seamless Rental Process:</b> We've revolutionized car rental. Our user-friendly interface ensures a swift and straightforward booking process, saving you valuable time.</li>
+   <li><b>Unparalleled Value:</b> We pride ourselves on providing unmatched value. Our rental rates are competitive, offering you the best deal in town.</li>
+   <li><b>Visually Stunning:</b> Explore our visually captivating car images that offer an immersive preview of your chosen rental.</li>
+     <li><b>Responsive Design:</b> Our webpage adapts seamlessly to various devices, guaranteeing a consistent experience across desktops, tablets, and smartphones.</li>
+</ul>
 
