@@ -1,9 +1,13 @@
-# React + Vite
+<h1 align="center"><img src= "https://raw.githubusercontent.com/stefvndev/car-rental/main/public/rent-icon2.png" alt=""/><b> CarRental</b></h1>
+<h2>About the project</h2>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<p>Welcome to our <b>Car rental landing page</b>. Explore our responsive car rental landing page, designed to showcase the benefits of choosing our services. Browse through a collection of visually appealing car images, and easily compare pricing for various vehicle options.</p>
+<h3 align="left">👉 Live Demo: <a href="https://hkt13.github.io/CarRental/"target="_blank">Live Demo</a></h3>
+<h3>Build with:</h3>
 
-Currently, two official plugins are available:
+»  React JS <br>
+»  HTML <br>
+»  CSS <br>
+»  JavaScript <br>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-# CarRental
+
